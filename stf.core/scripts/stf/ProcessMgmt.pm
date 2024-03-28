@@ -508,6 +508,7 @@ sub detectDumpFile {
 	}
 	 
 	chdir $cwd;
+	$any_dumps_found = $FALSE;
 	return ($any_dumps_found, $dumps);
 }
 
